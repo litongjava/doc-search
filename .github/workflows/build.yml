@@ -104,4 +104,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: doc-search-${{ runner.os }}-${{ runner.arch }}
-          path: dist          
+          path: dist
